@@ -1,6 +1,6 @@
 const div = document.createElement('div')
 document.body.insertBefore(div, document.body.firstChild)
-document.querySelector('footer').innerHTML = `
+document.querySelector('div').innerHTML = `
 <div class="navBar flex">
         <div>
             <img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5ee401ee1f08215e6dbf0661_color-lettermark.svg" alt="">
