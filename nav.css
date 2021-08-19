@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    height: 70px;
+    position : fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    margin: 25px 1%;
+}
+nav img{
+    width: 130px;
+    margin: auto;
+}
+nav > a:nth-child(1){
+    margin-top: 25px;
+    padding: 0;
+    margin-left: 5%;
+    flex-grow: 1;
+}
+nav > a:nth-child(7){
+    margin-right: 7%;
+}
