@@ -1,34 +1,6 @@
 :root{
     --primary-bg : #f3f5fb;
 }
-nav{
-    display: flex;
-    height: 70px;
-    position : fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    overflow: hidden;
-}
-nav > a{
-    text-decoration: none;
-    color: black;
-    height: 25px;
-    margin: 25px 1%;
-}
-nav img{
-    width: 130px;
-    margin: auto;
-}
-nav > a:nth-child(1){
-    margin-top: 25px;
-    padding: 0;
-    margin-left: 5%;
-    flex-grow: 1;
-}
-nav > a:nth-child(7){
-    margin-right: 7%;
-}
 body{
     margin: 0;
     font-family: ;
@@ -71,28 +43,6 @@ body{
     height: 50px;
     width: 25%;
 }
-/* nav{
-    display: flex;
-    height: 70px;
-}
-nav img{
-    max-width: 20%;
-    height: 30px;
-    margin: auto;
-}
-nav > a{
-    margin: 22px;
-}
-nav > div{
-    display: flex;
-    max-width: 40%;
-    justify-content: right;
-    /* margin-left: 40%;
-}
-nav p{
-    margin: 25px 15px;
-    flex-basis: 10%;
-} */
 .subheader{
     background-color: #f3f5fb;
     color: #6f8093;
