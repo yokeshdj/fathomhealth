@@ -115,7 +115,8 @@ body {
   flex-wrap: wrap;
 }
 #contentainerChild5 > div {
-  flex: 30%;
+  /* flex: 30%; */
+  width: 360px;
   margin: 1.5%;
   background-size: cover;
   background-color: rgb(250, 248, 248);
@@ -229,7 +230,8 @@ input::-webkit-input-placeholder {
 /* media queries for midium display */
 @media screen and (max-width: 950px) {
   #contentainerChild5 > div {
-    flex: 46%;
+    /* flex: 46%; */
+    width: 320px;
   }
   #contentainerChild7 > div {
     flex-direction: column;
