@@ -10,4 +10,4 @@ document.querySelector('nav').innerHTML = `<a href="index.html"><img
 <a href="careers.html">CAREERS</a>
 <a href="blog.html">BLOG</a>
 <a href="contact.html">CONTACT</a>
-</div>`
+</div>`;
