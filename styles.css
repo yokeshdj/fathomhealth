@@ -102,7 +102,7 @@ h3{
     margin: 0;
     letter-spacing: 0.1px;
 }
-.benefits > h6{
+.benefits > h6,.content-container > h6{
     color: #6f8093;
     padding-top: 70px;
     font-family: 'IBM Plex Sans',sans-serif;
