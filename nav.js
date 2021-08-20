@@ -7,7 +7,7 @@ document.querySelector('nav').innerHTML = `<a href="index.html"><img
         <a href="services.html">SERVICES</a>
 <a href="security.html">SECURITY</a>
 <a href="team.html">TEAM</a>
-<a href="careers.html">CAREERS</a>
+<a href="career.html">CAREERS</a>
 <a href="blog.html">BLOG</a>
 <a href="contact.html">CONTACT</a>
 </div>`;
