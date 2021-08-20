@@ -1,3 +1,6 @@
+:root{
+    --primary-bg : #f3f5fb;
+}
 footer{
     background-image: url("https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6edcb60f8bc32556bae915_footer-bg.png");
     background-size: cover;
