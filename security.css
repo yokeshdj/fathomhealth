@@ -127,14 +127,14 @@ h3{
     background-color: white;
 }
 .policy{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .policy-cards-grid{
     display: grid;
     /* width: 90%; */
     /* margin: auto; */
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(3,350px);
     grid-template-rows: repeat(4,70px);
     row-gap: 50px;
     column-gap: 10%;
@@ -143,13 +143,32 @@ h3{
     display: flex;
     height: 70px;
 }
-.text-container > h4{
+.text-container > h3{
     text-align: center;
+    font-family: 'Barlow',sans-serif;
+    color: #293240;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.text-container > p{
+    font-family: 'IBM Plex Sans',sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-container span{
+    color: #9a76d0;
+}
+.text-container > p:nth-child(3){
+    padding-bottom: 60px;
 }
 .quote{
     display: flex;
     height: 200px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     align-items: center;
 }
@@ -183,4 +202,17 @@ h3{
     text-decoration: none;
     color: white;
     border-radius: 50px;
+}
+.policy-text{
+    width: 50%;
+}
+.policy-text > h3{
+    line-height: 48px;
+    font-size: 38px;
+}
+.policy-text > h2{
+    color: #6f8093;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Barlow',sans-serif;;
 }
