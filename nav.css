@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(230, 214, 214);
+}
+nav > div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  /* height: 25px; */
+  margin: 0px 1%;
+}
+nav img {
+  width: 130px;
+  margin: auto;
+}
+nav > a:nth-child(1) {
+  /* margin-top: 25px; */
+  padding: 0;
+  margin-left: 5%;
+}
+.menu > a:nth-child(6) {
+  margin-right: 7%;
+}

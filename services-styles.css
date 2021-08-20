@@ -1,0 +1,185 @@
+:root{
+    --primary-bg : #f3f5fb;
+}
+body{
+    margin: 0;
+}
+.hero{
+    background-image: url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
+    background-size: cover;
+    height: 500px;
+    max-width: 100%;
+}
+.container{
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+.container > h1{
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.container > p{
+    font-weight: 300;
+    margin: 40px;
+    font-size: 30px;
+}
+.container > button{
+    background-color: white;
+    margin: auto;
+    color: #9a76d0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-radius: 28px;
+    border: 0px;
+    margin-top: 0px;
+    height: 50px;
+    width: 25%;
+}
+.subheader{
+    background-color: #f3f5fb;
+    color: #6f8093;
+    height: 60px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+    margin: 20px;
+}
+.subheader > a{
+    text-decoration: none;
+    color: #9a76d0;
+}
+.white-section{
+    display: flex;
+    height: 450px;
+    padding: 100px 5%;
+    flex-direction: row;
+}
+.white-section > div{
+    width: 40%;
+    padding-left: 7%;
+}
+.white-section h6{
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 10px;
+    margin-bottom: 2px;
+    color: #6f8093;
+}
+.white-section h3{
+    font-family: 'IBM Plex Serif', sans-serif;
+    margin: 20px 0px;
+    font-size: 38px;
+    font-weight: 500;
+}
+.white-section h6:nth-child(3){
+    font-weight: 400;
+    margin: 0px 0px 40px 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+.white-section p{
+    font-family: 'IBM Plex Serif', sans-serif;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+.white-section a{
+    padding: 15px 25px;
+    margin-top: 5rem;
+    font-family: 'IBM Plex Serif', sans-serif;
+    /* word-spacing: 3px; */
+    letter-spacing: 1px;
+    font-size: 12px ;
+    font-weight: 500;
+    border: 3px solid #9a76d0;
+    text-decoration: none;
+    color: #9a76d0;
+    border-radius: 50px;
+}
+.gray-section{
+    display: flex;
+    height: 450px;
+    background-color: var(--primary-bg);
+    /* margin: 100px 0%; */
+    padding: 100px 5%;
+    flex-direction: row;
+}
+.gray-section > div{
+    width: 40%;
+    padding-right: 7%;
+}
+.gray-section h6{
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 10px;
+    margin-bottom: 2px;
+    color: #6f8093;
+}
+.gray-section h3{
+    font-family: 'IBM Plex Serif', sans-serif;
+    margin: 20px 0px;
+    font-size: 38px;
+    font-weight: 500;
+}
+.gray-section h6:nth-child(3){
+    font-weight: 400;
+    margin: 0px 0px 40px 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+.gray-section p{
+    font-family: 'IBM Plex Serif', sans-serif;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+.gray-section a{
+    padding: 15px 25px;
+    margin-top: 5rem;
+    font-family: 'IBM Plex Serif', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px ;
+    font-weight: 500;
+    border: 3px solid #9a76d0;
+    text-decoration: none;
+    color: #9a76d0;
+    border-radius: 50px;
+}
+.benefits{
+    text-align: center;
+    height: 900px;
+    background-color: var(--primary-bg);
+}
+.cards-container{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-rows: repeat(2,300px);
+    grid-template-columns: repeat(3,300px);
+    column-gap: 10%;
+}
+.benefits a{
+    padding: 15px 25px;
+    margin-top: 5rem;
+    font-family: 'IBM Plex Serif', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px ;
+    font-weight: 500;
+    border: 3px solid #9a76d0;
+    text-decoration: none;
+    color: #9a76d0;
+    border-radius: 50px;
+}
