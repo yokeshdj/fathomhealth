@@ -4,7 +4,8 @@ body {
 .container {
   padding: 100px;
   background-image: url("https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg");
-  position: relative;
+  /* position: ; */
+  background-size: cover;
   margin: auto;
 }
 .section {
