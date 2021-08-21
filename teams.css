@@ -65,10 +65,7 @@ button {
   grid-gap: 20px;
   grid-template-columns: 310px 310px 310px 310px;
   margin: 20px;
-<<<<<<< HEAD
-=======
   text-align: center;
->>>>>>> d855f6e630b521c4f5a4252f861e77d530e7a45b
 }
 .grid-content {
   width: 200px;
@@ -199,11 +196,3 @@ button {
 a {
   text-decoration: none;
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 650px;
-  }
-}
-=======
->>>>>>> d855f6e630b521c4f5a4252f861e77d530e7a45b
