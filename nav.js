@@ -41,6 +41,7 @@ else if(page=="contact.html"){
         var ele = navigationBar.getElementsByTagName('a')[6];
         ele.setAttribute('class','text-color')
 }
+//for responsiv nav bar
 var parent = document.body;
 var element = document.createElement('div');
 parent.insertBefore(element,parent.firstChild);
@@ -57,7 +58,7 @@ document.querySelector('div').innerHTML =
     <i class="fa fa-bars"></i>
   </a>
 </div>`;
-//for responsiv nav bar
+
 function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
