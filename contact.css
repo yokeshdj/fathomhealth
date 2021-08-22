@@ -153,8 +153,8 @@ body {
   height: 600px;
 }
 .textPart > div:nth-child(7) > img {
-  height: 100%;
-  width: 80%;
+  height: 90%;
+  width: 300px;
 }
 .container2 {
   background-color: #f3f5fb;
@@ -186,6 +186,7 @@ body {
   margin: auto;
   /* border: 1px solid rgba(79, 56, 179, 0.979); */
   padding-top: 7%;
+  flex-wrap: wrap;
 }
 .container3 > div {
   /* border: 1px solid rgba(101, 179, 56, 0.979); */
@@ -193,8 +194,51 @@ body {
   text-align: left;
 }
 .container3 > div > img {
-  width: 120px;
+  width: 100px;
 }
 .container3 > div > div:nth-child(2) {
   margin-top: 10px;
+}
+/* added media query */
+@media screen and (max-width: 950px) {
+  footer {
+    display: none;
+  }
+  .container > div:nth-child(1) {
+    flex-direction: column;
+    /* background-color: #9f75dd; */
+    border: 1px solid red;
+  }
+  /* .emptyPart {
+    display: none;
+  } */
+  .container > div:nth-child(1) > div {
+    padding-top: 20px;
+    border: 1px solid red;
+  }
+  .header > div:nth-child(2) {
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+  }
+  .header > div:nth-child(1) {
+    padding-top: 13%;
+    font-size: 68px;
+    border: 1px solid red;
+  }
+  .container3 > div {
+    /* border: 1px solid rgba(101, 179, 56, 0.979); */
+    flex: 25%;
+    margin: 20px;
+    border: 1px solid red;
+  }
+  .textPart > div:nth-child(4) {
+    margin-top: 10px;
+    border: 1px solid red;
+  }
+  .formPart,
+  .textPart {
+    flex: 90%;
+    border: 1px solid red;
+  }
 }
