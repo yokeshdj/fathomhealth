@@ -1,90 +1,101 @@
-:root{
-    --primary-bg : #f3f5fb;
-}
-footer{
+.footer-content{
+    max-width: 100%;
+    margin:0;
+    display: grid;
     background-image: url("https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6edcb60f8bc32556bae915_footer-bg.png");
-    background-size: cover;
-    height: 400px;
+    gap:10px;
+    grid-template-columns: 500px auto auto auto auto;
+    grid-template-areas: 'id1 id2 id3 id4 id5';
 }
-footer img{
+#id1{grid-area: id1;}
+#id2{grid-area: id2;}
+#id3{grid-area: id3;}
+#id4{grid-area: id4;}
+#id5{grid-area: id5;}
+.footer-content > div{
+    padding:80px 20px;
+}
+.icons:hover{
+       background-color: hsla(0,0%,100%,.2);
+}
+#id1 > a >img{
     width: 150px;
     height: 23px;
 }
-.footer-container{
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    margin: auto;
+.footer-content > div > p{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: 'IBM Plex Sans',sans-serif;
+      color: #6f8093;
 }
-.footer-container > div{
-    margin-top: 100px;
-}
-.footer-container > div > p{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: 'IBM Plex Sans',sans-serif;
-    color: #6f8093;
-}
-.footer-container > div > p:hover{
-    color: white;
-}
-.footer-container h4{
+.footer-content h4{
     font-family: 'IBM Plex Sans',sans-serif;
     color: #6f8093;
     margin-top: 0;
     padding: 0;
     font-weight: 400;
-}
-.footer-container a{
-    font-family: 'IBM Plex Sans',sans-serif;
-    color: rgb(217,219,221);
-    text-decoration: none;
-}
-.icons{
-    background-color: hsla(0,0%,100%,.1);
-    margin: 5px;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-}
-.icons:hover{
-    background-color: hsla(0,0%,100%,.2);
-}
-.icons img{
-    width: 30px;
-    display: block;
-    margin: auto;
-    padding-top: 8px;
-    padding-bottom: 7px;
+ }
+ .footer-content a{
+      font-family: 'IBM Plex Sans',sans-serif;
+      color: rgb(217,219,221);
+      text-decoration: none;
 }
 .social-connects{
-    display: flex;
-    margin: 0px 20px 0px 0px;
+    width:150px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
 }
-.footer-content{
-    display: flex;
-    justify-content: flex-end;
+.social-connects > div{
+   width:40px;
+   border-radius: 50px;
+   height:40px;
+   background-color: hsla(0,0%,100%,.1);
 }
-.footer-content-list{
-    margin: 5%;
-    margin-top: 0;
-    white-space: nowrap;
-    /* text-overflow: clip; */
+.social-connects > div > a > img{
+    width: 22px;
+    height: 22px;
+    padding: 10px;
 }
-.footer-content-list > ul{
+ul{
     padding-left: 0;
 }
-.footer-content-list li{
+li{
     list-style: none;
     padding: 10px 0px;
 }
-.footer-content-list a:hover{
-    color: white;
+@media  screen and (max-width:650px) {
+    .footer-content{
+        grid-gap:20px;
+        padding:20px;
+        grid-template-columns: auto auto;
+        grid-template-areas: 'id1 id1'
+                             'id2 id3'
+                             'id4 id5';
+    }
+    .footer-content > div{
+        padding:20px;
+    }
+    #id1{
+        text-align: center;
+    }
+    .social-connects{
+        grid-template-columns: auto auto auto;
+        padding-left: 25%;
+    }
 }
-footer > p{
-    font-family: 'IBM Plex Sans',sans-serif;
-    color: var(--primary-bg);
-    text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
+@media only screen and (max-width:1000px) and (min-width: 650px){
+    .footer-content{
+        grid-gap:10px;
+        grid-template-columns: auto auto auto auto;
+        grid-template-areas:   'id1 id1 id1 id1'
+                               'id2 id3 id4 id5';
+    }
+    #id1{
+        text-align: center;
+    }
+    .social-connects{
+        grid-template-columns: auto auto auto;
+        padding-left: 40%;
+    }
 }
