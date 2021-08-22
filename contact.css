@@ -207,38 +207,38 @@ body {
   .container > div:nth-child(1) {
     flex-direction: column;
     /* background-color: #9f75dd; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   /* .emptyPart {
     display: none;
   } */
   .container > div:nth-child(1) > div {
     padding-top: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .header > div:nth-child(2) {
     width: 80%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .header > div:nth-child(1) {
     padding-top: 13%;
     font-size: 68px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .container3 > div {
     /* border: 1px solid rgba(101, 179, 56, 0.979); */
     flex: 25%;
     margin: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .textPart > div:nth-child(4) {
     margin-top: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .formPart,
   .textPart {
     flex: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 }

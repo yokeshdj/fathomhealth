@@ -37,7 +37,7 @@ else if(page=="blog.html"){
         var ele = navigationBar.getElementsByTagName('a')[5];
         ele.setAttribute('class','text-color')
 }
-else{
+else if(page=="contact.html"){
         var ele = navigationBar.getElementsByTagName('a')[6];
         ele.setAttribute('class','text-color')
 }
