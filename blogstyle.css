@@ -116,7 +116,8 @@ body {
 }
 #contentainerChild5 > div {
   /* flex: 30%; */
-  width: 360px;
+  /* width: 360px; */
+  flex-basis: 30%;
   margin: 1.5%;
   background-size: cover;
   background-color: rgb(250, 248, 248);
@@ -229,9 +230,13 @@ input::-webkit-input-placeholder {
 }
 /* media queries for midium display */
 @media screen and (max-width: 950px) {
+  footer {
+    display: none;
+  }
   #contentainerChild5 > div {
     /* flex: 46%; */
-    width: 320px;
+    /* width: 320px; */
+    flex-basis: 46%;
   }
   #contentainerChild7 > div {
     flex-direction: column;
@@ -253,6 +258,9 @@ input::-webkit-input-placeholder {
 }
 /* for small display */
 @media screen and (max-width: 750px) {
+  .container > div:nth-child(1) {
+    padding-top: 13%;
+  }
   #contentainerChild5 > div {
     flex: 98%;
   }
