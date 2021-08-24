@@ -9,6 +9,7 @@ footer {
 footer img {
   width: 150px;
   height: 23px;
+  background-size: cover;
 }
 .footer-container {
   display: flex;
