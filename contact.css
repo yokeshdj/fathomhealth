@@ -201,9 +201,9 @@ body {
 }
 /* added media query */
 @media screen and (max-width: 950px) {
-  footer {
+  /* footer {
     display: none;
-  }
+  } */
   .container > div:nth-child(1) {
     flex-direction: column;
     /* background-color: #9f75dd; */

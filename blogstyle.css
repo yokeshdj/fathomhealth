@@ -230,9 +230,9 @@ input::-webkit-input-placeholder {
 }
 /* media queries for midium display */
 @media screen and (max-width: 950px) {
-  footer {
+  /* footer {
     display: none;
-  }
+  } */
   #contentainerChild5 > div {
     /* flex: 46%; */
     /* width: 320px; */
