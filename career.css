@@ -12,17 +12,18 @@ a {
     font-size: 20px;
     font-weight: bold;
 }
-#bottom-box{
-    text-align: center;
+.bottom-box{
+    display: grid;
+    grid-gap: 0px;
     border-top: solid 1px #ccc;
     background-color: #eee;
-    position: relative;
-    margin-top: 80px;
-    height: 79px;
-    padding-top: 20px;
-    clear: both;
+    grid-template-rows: 50px 50px;
+}
+.bottom-box > div{
+    text-align: center;
     font-size: 12px;
-    line-height: 3em;
+   /* line-height: 3em;*/
+    padding-bottom: 0px;
 }
 #logo > img{
     width:200px;
@@ -33,8 +34,17 @@ img{
     height:30px;
 }
 .privacy-policy{
-    font-size: 20px;
+    font-size: 10px;
 }
-#bottom-box > a{
-    font-size: 20px;
+.bottom-box > a{
+    font-size: 10px;
+}
+@media  screen and (max-width:650px){
+    .bottom-box{
+        grid-template-rows: auto auto;
+    }
+    #box{
+        margin: 0px;
+        padding:0px;
+    }
 }

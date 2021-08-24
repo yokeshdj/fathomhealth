@@ -5,6 +5,8 @@ a{
   text-decoration: none;
 }
 .grid-box{
+  padding-top: 50px;
+  background-size: cover;
   display: grid;
   gap: 5px;
   background-image: url("https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg");
@@ -186,7 +188,7 @@ font-weight: 500;
   margin:0;
   gap:20px;
   padding:20px 60px;
-  grid-template-columns: 650px 500px;
+  grid-template-columns: 650px auto;
   grid-template-areas: 'gd1 gd2';
 }
 #grid4-1{
@@ -194,7 +196,7 @@ font-weight: 500;
 }
 #grid4-2{
   grid-area: gd2;
-  text-align: end;
+  text-align:end;
   padding-top:50px;
 }
 button{
@@ -219,6 +221,7 @@ button{
 }
 @media only screen and (max-width:650px) {
  .grid-box{
+     padding-top:20px;
      grid-template: 'id2'
                     'id4'
                     'id5';
@@ -243,4 +246,32 @@ button{
  #grid4-2{
      text-align: center;
  }
+}
+@media only screen and (max-width:950px) and (min-width: 650px){
+  .grid-box{
+    padding-top:20px;
+    grid-template: 'id2'
+                   'id4'
+                   'id5';
+  }   
+.para2{
+    display: none;
+}
+#img-box{
+ grid-template-columns: auto auto;
+} 
+#bottom-box{
+    grid-template-areas: 'h1'
+                         'h2'
+                         'h3'
+                         'h4';
+}
+#grid4-box{
+    grid-template-columns: auto;
+    grid-template-areas: 'gd1'
+                         'gd2';
+}
+#grid4-2{
+    text-align: center;
+}
 }
