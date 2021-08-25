@@ -5,7 +5,8 @@ body{
     background-image: url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
     background-size: cover;
     padding-top: 70px;
-    height: 500px;
+    height: 400px;
+    margin-bottom: 100px;
     max-width: 100%;
 }
 .container{
