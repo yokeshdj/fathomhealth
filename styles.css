@@ -93,12 +93,24 @@ body {
   border-radius: 50px;
 }
 .content {
-  height: 250px;
+  height: 350px;
   background-color: var(--primary-bg);
 }
 .faded-content-container {
   display: flex;
-  opacity: 0;
+}
+.faded-content-container > div{
+  width: 33%;
+}
+.faded-content-container h1{
+  font-size: 90px;
+  font-family: 'Barlow',sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #6f8093;
+}
+.content h3{
+  padding-top: 50px;
 }
 .benefits {
   text-align: center;
@@ -115,7 +127,7 @@ h3 {
   margin: 0;
 }
 .benefits > h6,
-.content-container > h6 {
+.content-container > h6, .faded-content-container h6 {
   color: #6f8093;
   padding-top: 70px;
   font-family: "IBM Plex Sans", sans-serif;
@@ -124,6 +136,9 @@ h3 {
   padding-bottom: 10px;
   font-size: 14px;
   letter-spacing: 1px;
+}
+.faded-content-container h6 {
+  padding-top: 0px;
 }
 .benefits > h5 {
   color: #6f8093;
@@ -331,6 +346,16 @@ h3 {
   .quote a {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+  .faded-content-container{
+    flex-direction: column;
+  }
+  .faded-content-container > div{
+    width: 50%;
+    margin: auto;
+  }
+  .content{
+    height: max-content;
   }
 }
 @media screen and (max-width: 479px){
