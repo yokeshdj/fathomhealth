@@ -333,9 +333,9 @@ h3 {
     padding-right: 6rem;
   }
 }
-@media screen and (max-width: 479px) {
-  .quote a {
-    padding-left: 2rem;
-    padding-right: 2rem;
+@media screen and (max-width: 479px){
+  .quote a{
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
