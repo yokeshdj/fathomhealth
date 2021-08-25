@@ -17,3 +17,14 @@ https://fathomhealth.com Clone
 <li>Blog page</li>
 <li>contact Page</li>
 </ol>
+<p>Index page ,Services Page and Security page has done By Yokesh</p>
+<p>Team and Careear Page Has done by ashish</p>
+<p>Blog page and contact page Has  done By Pradip</p>
+<h2>Used language</h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+ </ul>
+  
+  
