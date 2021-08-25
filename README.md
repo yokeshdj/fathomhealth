@@ -28,5 +28,6 @@ https://fathomhealth.com Clone
  </ul>
 <h2>used fonts</h2>
  https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap
-
+<h2>used icon</h2>
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   
