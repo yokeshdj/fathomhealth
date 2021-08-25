@@ -26,5 +26,7 @@ https://fathomhealth.com Clone
   <li>CSS</li>
   <li>Javascript</li>
  </ul>
-  
+<h2>used fonts</h2>
+ https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap
+
   
