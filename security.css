@@ -4,6 +4,7 @@ body{
 .hero{
     background-image: url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
     background-size: cover;
+    padding-top: 70px;
     height: 500px;
     max-width: 100%;
 }
@@ -134,7 +135,7 @@ h3{
     display: grid;
     /* width: 90%; */
     /* margin: auto; */
-    grid-template-columns: repeat(3,350px);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,70px);
     row-gap: 50px;
     column-gap: 10%;
@@ -142,6 +143,12 @@ h3{
 .policy-card{
     display: flex;
     height: 70px;
+}
+.policy-card > p{
+    margin-left: 10%;
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-size: 17px;
+    color: #293240;
 }
 .text-container > h3{
     text-align: center;
@@ -165,44 +172,6 @@ h3{
 .text-container > p:nth-child(3){
     padding-bottom: 60px;
 }
-.quote{
-    display: flex;
-    height: 200px;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-}
-.quote > div:nth-child(1){
-    flex-grow: 1;
-}
-.quote > div:nth-child(2) a{
-    padding: 15px 25px;
-    margin-top: 5rem;
-    font-family: 'IBM Plex Serif', sans-serif;
-    /* word-spacing: 3px; */
-    letter-spacing: 1px;
-    font-size: 12px ;
-    font-weight: 500;
-    border: 3px solid #9a76d0;
-    text-decoration: none;
-    color: #9a76d0;
-    margin-right: 70px;
-    border-radius: 50px;
-}
-.quote > div:nth-child(3) a{
-    padding: 15px 25px;
-    margin-top: 5rem;
-    font-family: 'IBM Plex Serif', sans-serif;
-    /* word-spacing: 3px; */
-    letter-spacing: 1px;
-    font-size: 12px ;
-    font-weight: 500;
-    background-color: #9a76d0;
-    border: 3px solid #9a76d0;
-    text-decoration: none;
-    color: white;
-    border-radius: 50px;
-}
 .policy-text{
     width: 50%;
 }
@@ -215,4 +184,115 @@ h3{
     font-size: 28px;
     font-weight: 400;
     font-family: 'Barlow',sans-serif;;
+}
+.white-section {
+    background-color: white;
+  }
+  .quote {
+    display: flex;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .buttons{
+    display: flex;
+  }
+  .buttons > div{
+    margin: 2rem;
+  }
+  .quote h3{
+    font-size: 38px;
+  }
+  .quote a {
+    padding: 15px 25px;
+    margin-top: 5rem;
+    font-family: "IBM Plex Serif", sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 3px solid #9a76d0;
+    text-decoration: none;
+    color: #9a76d0;
+    border-radius: 50px;
+  }
+  .buttons > div:nth-child(2) a{
+    background-color: #9a76d0;
+    color: white;
+  }
+  footer{
+      padding-top: 100px;
+  }
+@media screen and (max-width: 991px){
+    .gray-section > div{
+        width: 90%;
+    }  
+    .policy-text{
+        width: 90%;
+    }
+    .quote, .buttons {
+        flex-direction: column;
+    }
+    .quote > div:nth-child(3) a{
+        margin-top: 50px;
+    }
+    .subheader {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .container{
+        max-width: 90%;
+      }
+    .container > button{
+        display: none;
+    }
+    .container > h1{
+        font-size: 40px;
+    }
+    .container > p{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 767px){
+    .policy-cards-grid{
+        display: flex;    
+        flex-direction: column;
+        margin: auto;
+    }
+    .policy-card{
+        max-width: 60%;
+        margin: auto;
+    }   
+    .quote, .buttons{
+        flex-direction: column;
+      }
+    .quote a{
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+      .container{
+        max-width: 90%;
+      }
+      .container > button{
+        width: 70%;
+      } 
+      footer{
+        margin-top: 100px;
+      }
+      .content-container > a {
+        padding-right: 30%;
+        padding-left: 30%;
+      }
+      .cards-container{
+        display: flex;
+        flex-direction: column;
+      }
+}
+@media screen and (max-width: 479px){
+    .quote a{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
 }
