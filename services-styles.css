@@ -8,7 +8,7 @@ body{
     background-image: url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
     background-size: cover;
     padding-top: 70px;
-    height: 500px;
+    height: 600px;
     max-width: 100%;
 }
 .container{
@@ -73,7 +73,7 @@ body{
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 28px;
     margin-bottom: 2px;
     color: #6f8093;
 }
@@ -125,7 +125,7 @@ body{
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 28px;
     margin-bottom: 2px;
     color: #6f8093;
 }
@@ -221,4 +221,61 @@ h3{
     color: #6f8093;
     line-height: 28px;
     font-size: 18px;
+}
+@media screen and (max-width: 991px){
+    .subheader {
+        display: none;
+    }
+    .quote, .buttons{
+      flex-direction: column;
+    }
+    footer{
+      margin-top: 100px;
+    }
+    .container{
+      max-width: 90%;
+    }
+    .container > button{
+      width: 70%;
+    }
+    .white-section{
+        flex-direction: column;
+        height: max-content;
+    }
+    .white-section > div{
+        width: 90%;
+    }
+    .white-section a{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .gray-section{
+        flex-direction: column;
+        height: max-content;
+    }
+    .gray-section > div{
+        width: 90%;
+        height: 600px;
+    }
+    .gray-section a{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+      .benefits{
+        height:max-content;
+        margin-bottom: 70px;
+    }
+      .benefits > a{
+        padding-right: 30%;
+        padding-left: 30%;   
+    }
+    @media screen and (max-width: 479px) {
+        .container > h1{
+            font-size: 40px;
+        }
+    }
 }
